@@ -163,6 +163,8 @@
 -r:"C:\Users\Stefan\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Stefan\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll"
 -resource:"C:\Users\Stefan\Source\Repos\ASP.NET-Core\CityInfo\src\CityInfo.API\obj\Debug\netcoreapp1.0\CityInfo.APIdotnet-compile.deps.json",CityInfo.API.deps.json
+"C:\Users\Stefan\Source\Repos\ASP.NET-Core\CityInfo\src\CityInfo.API\CityDataStore.cs"
 "C:\Users\Stefan\Source\Repos\ASP.NET-Core\CityInfo\src\CityInfo.API\Program.cs"
 "C:\Users\Stefan\Source\Repos\ASP.NET-Core\CityInfo\src\CityInfo.API\Startup.cs"
 "C:\Users\Stefan\Source\Repos\ASP.NET-Core\CityInfo\src\CityInfo.API\Controllers\CitiesController.cs"
+"C:\Users\Stefan\Source\Repos\ASP.NET-Core\CityInfo\src\CityInfo.API\Models\CityDto.cs"

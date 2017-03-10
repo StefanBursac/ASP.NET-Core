@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace CityInfo.API.Controllers
 {
+    [Route("api/cities")]
+
     public class CitiesController : Controller
     {
+
+        [HttpGet()]
 
         public JsonResult GetCities()
         {
@@ -16,8 +20,20 @@ namespace CityInfo.API.Controllers
             {
                 new { id = 1 , Name =  "New York City" },
                 new { id = 2, Name = "Antwerp" }
-        }); 
+        });
+        }
+
+        [HttpGet("{id}")]
+
+        public JsonResult GetCity(int id)
+        {
+            return new JsonResult
+               (
+                CityDataStore.Current.Cities.FirstOrDefault(c => c.Id == id)
+               );
+
 
         }
+
     }
 }
