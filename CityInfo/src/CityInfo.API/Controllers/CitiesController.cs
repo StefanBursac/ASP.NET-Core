@@ -20,7 +20,7 @@ namespace CityInfo.API.Controllers
             {
                 new { id = 1 , Name =  "New York City" },
                 new { id = 2, Name = "Antwerp" }
-        });
+            });
         }
 
         [HttpGet("{id}")]
@@ -31,8 +31,6 @@ namespace CityInfo.API.Controllers
                (
                 CityDataStore.Current.Cities.FirstOrDefault(c => c.Id == id)
                );
-
-
         }
 
     }
